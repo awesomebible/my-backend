@@ -1,0 +1,16 @@
+on: push
+name: Deploy
+jobs:
+  web-deploy:
+    name: 🎉 Backend bereitstellen
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Aktuellen Code abrufen
+      uses: actions/checkout@v2.3.2
+    
+    - name: 📂 Dateien synchronisieren
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.ftp_server }}
+        username: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_password }}
