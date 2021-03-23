@@ -11,10 +11,7 @@ $password = $_POST['password'];
 $remember = $_POST['remember_me'];
 
 if(!filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($passwort) == 0 || strlen($invite_code) == 0) {
-    header("application/json");
-    die('{
-        "error":"emptycredentials"
-    }');
+ // Todo: Handle missing user input.
 }else{
     $statement = $pdo->prepare("SELECT * FROM users WHERE email = :email");
         $result = $statement->execute(array('email' => $email));
@@ -23,8 +20,7 @@ if(!filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($passwort) == 0 || strle
         if($user !== false) {
             // User exists, login
             if(password_verify($password, $user['password'])){
-                $session_api_key = md5(uniqid());
-                
+                // Todo: Generate real unique session token, pass it off to the client and handle auth.
             }
         }else{
             // User doesn't exist, register
