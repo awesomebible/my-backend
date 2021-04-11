@@ -10,8 +10,12 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 $remember = $_POST['remember_me'];
 
-if(strlen($invite_code) == 0 || !filter_var($email_a, FILTER_VALIDATE_EMAIL) || strlen($password) == 0) {
+if(strlen($invite_code) == 0 || !filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($password) == 0) {
  // Todo: Handle missing user input.
+ echo('
+ {"status":"missing_input"}
+ ');
+ die();
 }else{
     $statement = $pdo->prepare("SELECT * FROM users WHERE email = :email");
         $result = $statement->execute(array('email' => $email));
