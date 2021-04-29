@@ -5,7 +5,6 @@ Es ist in PHP geschrieben und nutzt als Datenbanksystem MariaDB.
 
 ## Issues die weder/sowohl als auch Front- oder Backend betreffen bitte in [awesomebible/my-united](https://codeberg.org/awesomebible/my-united) öffnen.
 
-
 ## Deploy Status
 Eine Folge von dem Wechsel zu Codeberg ist, dass weder das Frontend, noch das Backend automatisch aktualisert werden, da Codeberg noch keine CI/CD Unterstützung hat.
 
