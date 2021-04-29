@@ -3,13 +3,8 @@ Dieses Repository enthält das Backend von my.awesomeBible.
 
 Es ist in PHP geschrieben und nutzt als Datenbanksystem MariaDB.
 
-## Issues die weder Front- oder Backend betreffen bitte in [awesomebible/my-united](https://codeberg.org/awesomebible/my-united) öffnen.
+## Issues die weder/sowohl als auch Front- oder Backend betreffen bitte in [awesomebible/my-united](https://codeberg.org/awesomebible/my-united) öffnen.
 
-### Auth-Errorcodes
-| Code | Fehler |
-| ---- | ------ |
-| emptycredentials | Ein oder mehrere erforderliche Felder wurden nicht ausgefüllt. |
-| alreadyregistered | Diese E-Mailadresse ist bereits registriert. |
 
 ## Deploy Status
 Eine Folge von dem Wechsel zu Codeberg ist, dass weder das Frontend, noch das Backend automatisch aktualisert werden, da Codeberg noch keine CI/CD Unterstützung hat.
