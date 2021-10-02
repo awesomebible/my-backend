@@ -1,0 +1,19 @@
+{
+  "name": "my-backend",
+  "version": "1.0.0",
+  "description": "Das my.awesomeBible Backend ist jetzt von [Supabase](https://supabase.io) bereitgestellt.\r Deswegen wird dieses Repository bis auf weiteres archiviert.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@codeberg.org:awesomebible/my-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
