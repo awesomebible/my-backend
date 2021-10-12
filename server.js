@@ -1,25 +1,32 @@
 const express = require('express');
-
 const app = express();
+const mongoose = require('mongoose');
+require('dotenv').config()
+
+init().catch(err => console.log(err));
+
+async function init() {
+    await mongoose.connect(process.env.DB_AUTH)
+}
 
 app.get('/', (req, res) => {
   res.redirect("https://codeberg.org/awesomebible/my-backend");
 });
 
 app.get('/timeline', (req, res) => {
-    // Fetch timeline
+    // TODO: Fetch timeline
+
   });
 app.post('/auth', (req, res) => {
-    // Do Auth
+    // TODO: Do Auth
 });
 app.post('/reset-password', (req, res) => {
-    // Do Auth
+    // TODO: Do Reset Password
 });
 app.post('/create-file', (req, res) => {
-    // Create File
+    // TODO: Create File
 });
 app.post('/create-post', (req, res) => {
-    // Create Post
+    // TODO: Create Post
 });
-
 app.listen(3000, () => console.log('my.awesomeBible Server is listening on port 3000.'));
