@@ -4,6 +4,7 @@
   "description": "Das my.awesomeBible Backend ist jetzt von [Supabase](https://supabase.io) bereitgestellt.\r Deswegen wird dieses Repository bis auf weiteres archiviert.",
   "main": "index.js",
   "scripts": {
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
