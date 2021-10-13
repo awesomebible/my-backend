@@ -1,2 +1,6 @@
 # my.awesomeBible Backend
-Das Backend im ``main``-Branch wird nicht verwendet. Ein [Rewrite in Express.js](https://codeberg.org/awesomebible/my-backend/pulls/2) ist im Gange.
+In diesem Repository befindet sich das Backend des [my.awesomeBible](https://codeberg.org/awesomebible/my-frontend) Projekts.
+
+Das Backend ist in Javascript mit [Express.js](https://expressjs.com) als Framework geschrieben.
+
+Als Datenbanksystem nutzt es [MongoDB](https://www.mongodb.com/) mit [Mongoose](https://mongoosejs.com/).
