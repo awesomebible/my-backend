@@ -21,3 +21,6 @@ Wenn du [yarn](https://yarnpkg.com/) benutzt:
 yarn # Installiert ExpressJS, MongoDB und alle Abhängigkeiten
 yarn dev # Startet den Server auf Port 3000
 ```
+### Sicherheitslücken 🔓
+
+Wenn du auf eine Sicherheitslücke gestoßen bist, melde sie bitte nicht direkt in den Issues - stattdessen schreib uns bitte eine [E-Mail](mailto:hi@awesomebible.de) an [hi@awesomebible.de](mailto:hi@awesomebible.de) oder eine Nachricht an unseren [Matrix-Account](https://matrix.to/#/@awesomebible:matrix.org).
