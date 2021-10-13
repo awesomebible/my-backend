@@ -1,5 +1,2 @@
 # my.awesomeBible Backend
-Das my.awesomeBible Backend ist jetzt von [Supabase](https://supabase.io) bereitgestellt.
-Deswegen wird dieses Repository bis auf weiteres archiviert.
-
-## Issues die weder/sowohl als auch Front- oder Backend betreffen bitte in [awesomebible/my-united](https://codeberg.org/awesomebible/my-united) öffnen.
+Das Backend im ``main``-Branch wird nicht verwendet. Ein [Rewrite in Express.js](https://codeberg.org/awesomebible/my-backend/pulls/2) ist im Gange.
