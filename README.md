@@ -1,4 +1,6 @@
 # my.awesomeBible Backend
+[![](https://img.shields.io/matrix/my.awesomebible:matrix.org?color=blueviolet&logo=matrix)](https://matrix.to/#/#my.awesomebible:matrix.org)
+
 Das Backend im ``main``-Branch wird nicht verwendet. Ein [Rewrite in Express.js](https://codeberg.org/awesomebible/my-backend/pulls/2) ist im Gange.
 
 ## Mitmachen 🦄
