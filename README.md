@@ -21,7 +21,7 @@ Um Flask zu installieren, folge den Schritten in der [Flask Dokumentation](https
 
 Mit `flask run` startest du dann das Projekt. Es sollte ein Webserver auf Port 5000 starten.
 
-Für Debugging und das Senden von Netzwerkanfragen empfehlen wir [Hoppscotch] mit der entsprechenden [Chrome](https://chrome.google.com/webstore/detail/hoppscotch-browser-extens/amknoiejhlmhancpahfcfcfhllgkpbld) und [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hoppscotch/) Erweiterung.
+Für Debugging und das Senden von Netzwerkanfragen empfehlen wir [Hoppscotch](https://hoppscotch.io) mit der entsprechenden [Chrome](https://chrome.google.com/webstore/detail/hoppscotch-browser-extens/amknoiejhlmhancpahfcfcfhllgkpbld) und [Firefox](https://addons.mozilla.org/en-US/firefox/addon/hoppscotch/) Erweiterung.
 
 ### Sicherheitslücken 🔓
 
