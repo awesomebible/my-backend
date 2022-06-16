@@ -1,31 +1,24 @@
-from flask import Flask
-from flask_mongoengine import MongoEngine
+from flask import Flask, request
+from flask_cors import CORS
 
 app = Flask(__name__)
-app.config['MONGODB_SETTINGS'] = {
-    'host': 'cluster0.aiybf.mongodb.net',
-    'db': 'cluster0',
-    'username':'admin',
-    'password':'yKnc7la4ZznKZ92d'
-}
-db = MongoEngine()
-db.init_app(app)
+CORS(app)
 
 @app.route("/")
 def hello_world():
     return "<p>Hallo Welt!</p>\n<p>Du hast den Weg hinter die Kulissen von my.awesomeBible gefunden. Das sollte normalerweise nicht passieren.<p> <p><a href=\"https://my.awesomeBible.de\">Klicke hier um wieder zurück zu my.awesomeBible zu gelangen,</a> <a href=\"https://codeberg.org/awesomebible/my-backend/issues\"><i>oder klicke hier um einen Fehler zu melden.</i></a></p>"
 
-@app.route("/login")
+@app.route("/login", methods=['POST'])
 def login():
     return
 
-@app.route("/reset-password")
+@app.route("/reset-password", methods=['POST'])
 def resetpassword():
     return
 
-@app.route("/post/new")
+@app.route("/post/new", methods=['POST'])
 def post():
-    return
+    return request.args.get("content")
 
 @app.route("/timeline")
 def timeline():
