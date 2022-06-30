@@ -1,4 +1,7 @@
-# my.awesomeBible Backend
+# my.awesomeBible Backend: Dieses Repository ist zur neuen Laravel-Codebase [awesomeBible/my.awesomeBible](https://codeberg.org/awesomeBible/my.awesomeBible) umgezogen.
+## ``awesomeBible/my-backend`` ist nicht mehr in Gebrauch und archiviert.
+
+
 [![](https://img.shields.io/matrix/my.awesomebible:matrix.org?color=blueviolet&logo=matrix)](https://matrix.to/#/#my.awesomebible:matrix.org)
 
 Das Backend im ``main``-Branch wird nicht verwendet. Ein [Rewrite in Express.js](https://codeberg.org/awesomebible/my-backend/pulls/2) ist im Gange.
